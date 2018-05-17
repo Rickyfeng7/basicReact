@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title> Learning React</title>
+</head>
+<body>
+<div id="app">
+</div>
+<style>
+.person{
+    border: 1px solid #eee;
+    box-shdow: 0 2px 2px #ccc;
+    Width: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+    }
+</style>
+    <script>
+    function Person(props){
+    return (
+      <div className="person">
+        <h1>{props.name}</h1>
+        <p>Your Age: {props.age}</p>
+      </div>
+    );
+}
+let app = (
+  <div>
+    <Person name="Ricky" age="25"/>
+    <Person name="Emily" age="24"/>
+  </div>
+);
+ReactDOM.render(app, document.querySelector('#app'));
+
+    </script>
+</body>
+</html>
