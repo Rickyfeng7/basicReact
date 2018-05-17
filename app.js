@@ -53,3 +53,45 @@ console.log(multiply(2))
 // import {chicken as chicken} from './utility.js'
 //--// importing all from utility as a bundle
 // import * as bundled from './utility.js'
+
+// class Person {
+//     // this is a property - variables attached to class 
+//     name = 'ricky'
+//     // this is a method - functions attached to class
+//     call = () => {...}
+// }
+
+// const myPerson = new Person()
+//     myPerson.call()
+//     console.log(myPerson.name)
+
+// class Human {
+//   constructor(){
+//     this.gender = 'male';
+//   }
+//   printGender() {
+//     console.log(this.gender)
+//   }
+// }
+
+
+// class Person extends Human {
+//   // name of method with ()
+//   constructor(){
+//     super();
+//     this.name = 'ricky';
+//     this.gender = 'female'
+//   }
+//   printMyName (){
+//     console.log(this.name)
+//   }
+// }
+
+// const person = new Person();
+// person.printMyName();
+// person.printGender();
+
+// // oop objected orented poperties 
+
+// // can only inherat twice in js 
+
