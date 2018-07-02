@@ -8,11 +8,12 @@ class App extends Component {
       <div className="App">
         <h1> Hi, I'm a React App</h1>
         <p>This is really working</p>
-        <Person/>
+        <Person name="max" age="10"/>
+        <Person name="xma" age="20"> My Hobbies: Racing </Person>
+        <Person name="axm" age="30"/>
       </div>
     );
-    // the method createElement takes at least 3 elements but unlimited amount of arguments, react renders html by translating it into JSX like the example below. 
-    // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now ?' ))
+
   }
 }
 
